@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import React from "react";
+import Head from "./compenent/Head";
+//import duckk from "./duckk.jpg"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Head name="hbh"/>
+      <br/>
+
+      <img src="/jes.png" alt="jes" />
+      <br/>
+      <video controls width={673.5} height={449.7}>
+      <source src="" type="video/mp4" />
+</video>
+      
     </div>
   );
 }
 
-export default App;
+export default App; 
