@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "./compenent/Head";
-//import duckk from "./duckk.jpg"
+import hb from "./hb.jpg"
 import './App.css';
 
 function App() {
@@ -8,8 +8,10 @@ function App() {
     <div className="App">
       <Head name="hbh"/>
       <br/>
+        <img src={hb} alt="hb" height="150px"/>
+        <br/>
 
-      <img src="/jes.png" alt="jes" />
+      <img src="/nat.jpg" alt="nat"/>
       <br/>
       <video controls width={673.5} height={449.7}>
       <source src="" type="video/mp4" />
